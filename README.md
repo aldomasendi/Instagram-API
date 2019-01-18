@@ -78,19 +78,16 @@ Setelah authorize, lalu akan muncul seperti *permission* untuk mengizinkan aplik
 ![Tampilan Awal](screenshoot/tampilan-awal.PNG)
 
 Project telah berhasil dijalankan.
-## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+## Fitur yang ditambahkan
 
-## Contributing
+* Menampilkan Profile User Instagram
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+    Saat sudah masuk pada halaman utama, sudah memunculkan profile data user instagram dalam box biru
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* Sort *ascending* dan *descending* by Likes
+* Sort *ascending* dan *descending* by Comment
+* Menampilkan post Instagram berupa *video* atau *foto* saja
 
 ## Authors
 
@@ -104,13 +101,3 @@ Kelompok 1:
 * **Zahra Cesalia** - *161524032*
 
 Kelas 3A/D4-Teknik Informatika POLBAN 2016
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
