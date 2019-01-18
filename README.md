@@ -10,7 +10,11 @@ menjalankan aplikasi web tersebut.
 
 ## Getting Started
 
-Untuk mengawali project, sebelumnya harus sudah mempunyai atau menginstall [node.js](https://nodejs.org/en/download/) pada komputer dan sudah mendaftarkan aplikasi nya pada [Instagram Developers](https://www.instagram.com/developer/). Selanjutnya silahkan download project pada git kami
+Untuk mengawali project, sebelumnya harus sudah mempunyai atau menginstall [node.js](https://nodejs.org/en/download/) pada komputer dan sudah mendaftarkan aplikasi nya pada [Instagram Developers](https://www.instagram.com/developer/).
+
+Pertama-tama login Instagram terlebih dahulu, berada pada button pojok kanan atas
+
+![Login Instagram](https://scotch-res.cloudinary.com/image/upload/dpr_1,w_800,q_auto:good,f_auto/media/52165/MX6FDKsaRCq81J3okem3_Screenshot%20(70).png)
 
 ### Installing
 
