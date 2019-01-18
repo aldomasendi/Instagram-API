@@ -24,6 +24,16 @@ Kemudian register new Client, klik Register a New Client
 
 ![Register Clients](https://scotch-res.cloudinary.com/image/upload/dpr_1,w_800,q_auto:good,f_auto/media/52165/iDUr70OXQAKwTYYwlKm8_register%20new%20client.png)
 
+Saat register, masukkan website URL localhost nya. Contoh nya menggunakan localhost dengan port 8080
+
+![Website URL](screenshoot/instagram-sandbox-mode.PNG)
+
+Kemudian masuk ke Tab **Security** dan masukkan handleAuth nya
+
+![Website handleAuth](screenshoot/instagram-sandbox-mode-security.PNG)
+
+Terakhir, klik button **Update Client** dan kita dapatkan **Client ID** dan **Client Secret** nya.
+
 ### Installing
 
 Setelah download git, lalu masuk pada directory file tersebut berada pada cmd lalu install.
@@ -31,6 +41,8 @@ Setelah download git, lalu masuk pada directory file tersebut berada pada cmd la
 ```
 > npm install instagram-node
 ```
+
+Setelah berhasil menginstall instagram-node, buka **api.js** menggunakan text editor yang disukai. Disana memerlukan **Client_ID** dan **Client_Secret** yang anda punya.
 
 
 
