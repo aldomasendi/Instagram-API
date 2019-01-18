@@ -84,11 +84,59 @@ Project telah berhasil dijalankan.
 * Menampilkan Profile User Instagram
 
     Saat sudah masuk pada halaman utama, sudah memunculkan profile data user instagram dalam box biru
+    ![profile](screenshoot/profile.PNG)
 
 * Sort *ascending* dan *descending* by Likes
-* Sort *ascending* dan *descending* by Comment
-* Menampilkan post Instagram berupa *video* atau *foto* saja
 
+    Untuk mengurutkan post instagram berdasarkan jumlah like, maka perlu direct ke **/sort-ascending** atau **/sort-descending**
+    ```
+    localhost:8080/sort-ascending
+    ```
+    atau
+    ```
+    localhost:8080/sort-descending
+    ```
+    
+    Hasilnya:
+    **Sort-Ascending**
+    ![sort-ascending](screenshoot/sort-ascending.PNG)
+    
+    **Sort-Descending**
+    ![sort-descending](screenshoot/sort-descending.PNG)
+    
+* Sort *ascending* dan *descending* by Comment
+
+    Untuk mengurutkan post instagram berdasarkan jumlah comment, maka perlu direct ke **/sort-ascending-comment** atau **/sort-descending-comment**
+    ```
+    localhost:8080/sort-ascending-comment
+    ```
+    atau
+    ```
+    localhost:8080/sort-descending-comment
+    ```
+    
+    Hasilnya:
+    **Sort-Ascending**
+    ![sort-ascending-comment](screenshoot/sort-ascending-comment.PNG)
+    
+    **Sort-Descending**
+    ![sort-descending-comment](screenshoot/sort-descending-comment.PNG)
+    
+* Menampilkan post Instagram berupa *video* saja
+
+    Untuk menampilkan post berupa video, maka perlu direct ke **/video**
+    ```
+    localhost:8080/video
+    ```
+    
+    Hasilnya:
+    **Video**
+    ![video](screenshoot/video.PNG)
+    
+* Menampilkan comment pada sebuah post
+
+    Untuk fitur tambahan ini, masih kami kembangkan. Kami sudah mendapatkan comment-comment yang dimaksud namun masih ditampilkan pada console, belum diimplementasikan pada User Interface nya.
+    
 ## Authors
 
 Kelompok 1:
