@@ -9,8 +9,8 @@ app.use(express.static(__dirname + '/public'));
 app.set('view engine', 'ejs');
 
 ig.use({
-    client_id: '4bb7fdb97cea401999b23cf13ed42642',
-    client_secret: '044092e4c88d44ebae641fe4c4f03f06'
+    client_id: 'YOUR_CLIENT_ID',
+    client_secret: 'YOUR_CLIENT_SECRET'
 });
 
 //the redirect uri we set when registering our application
