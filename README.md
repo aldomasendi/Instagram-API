@@ -44,11 +44,18 @@ Setelah download git, lalu masuk pada directory file tersebut berada pada cmd la
 
 Setelah berhasil menginstall instagram-node, buka **api.js** menggunakan text editor yang disukai. Disana memerlukan **Client_ID** dan **Client_Secret** yang anda punya.
 
-![api-js](screenshoot/api-js.PNG)
+```
+ig.use({
+    client_id: 'Your_Client_ID',
+    client_secret: 'Your_Client_Secret'
+});
+```
+
+Setelah memmasukkan **Client_ID** dan **Client_Secret**, tinggal run project nya.
 
 ### Running
 
-Step untuk me-run project
+Step untuk me-run project, masuk pada directory project tersebut pada cmd, lalu masukkan:
 ```
 > node api.js
 ```
@@ -58,12 +65,19 @@ Setelah localhost berjalan, masuk pada browser dan inputkan localhost yang dipak
 ```
 localhost:8080
 ```
-Namun project belum bisa menampilkan websitenya karena AccessToken belum terdefinisikan. Untuk mendapatkan accessToken tersebut, masuk pada directory 'authorize'
+Namun project belum bisa menampilkan websitenya karena AccessToken belum terdefinisikan. 
+
+![error](screenshoot/error.PNG)
+
+Untuk mendapatkan accessToken tersebut, masuk pada directory 'authorize'
 ```
 localhost:8080/authorize
 ```
 Setelah authorize, lalu akan muncul seperti *permission* untuk mengizinkan aplikasi menggunakan instagram API. Setelah diizinkan, maka secara otomatis, akan muncul gambar dan video yang ada pada instagram user tersebut.
 
+![Tampilan Awal](screenshoot/tampilan-awal.PNG)
+
+Project telah berhasil dijalankan.
 ## Built With
 
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
