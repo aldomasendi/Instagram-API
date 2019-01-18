@@ -44,7 +44,7 @@ Setelah download git, lalu masuk pada directory file tersebut berada pada cmd la
 
 Setelah berhasil menginstall instagram-node, buka **api.js** menggunakan text editor yang disukai. Disana memerlukan **Client_ID** dan **Client_Secret** yang anda punya.
 
-
+![api-js](screenshoot/api-js.PNG)
 
 ### Running
 
