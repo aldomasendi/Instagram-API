@@ -16,6 +16,14 @@ Pertama-tama login Instagram terlebih dahulu, berada pada button pojok kanan ata
 
 ![Login Instagram](https://scotch-res.cloudinary.com/image/upload/dpr_1,w_800,q_auto:good,f_auto/media/52165/MX6FDKsaRCq81J3okem3_Screenshot%20(70).png)
 
+Setelah login, klik Manage Clients
+
+![Manage Clients](https://scotch-res.cloudinary.com/image/upload/dpr_1,w_800,q_auto:good,f_auto/media/52165/mN1HOaLQoiSYqbmMZAzA_manage%20clients.png)
+
+Kemudian register new Client, klik Register a New Client
+
+![Register Clients](https://scotch-res.cloudinary.com/image/upload/dpr_1,w_800,q_auto:good,f_auto/media/52165/iDUr70OXQAKwTYYwlKm8_register%20new%20client.png)
+
 ### Installing
 
 Setelah download git, lalu masuk pada directory file tersebut berada pada cmd lalu install.
